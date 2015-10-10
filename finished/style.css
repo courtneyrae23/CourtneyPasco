@@ -1,0 +1,50 @@
+body  {
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.6;
+}
+ul {
+  display: inline-block;
+}
+hr  {
+  border: 1px dashed #BEBDC5;
+}
+#name {
+  font-size: 40px;
+}
+.cover {
+  text-align: center;
+  background-image: url("images/seattle.jpg");
+  background-position: 70%;
+  color: white;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+}
+.cover a {
+  color: white;
+}
+.resume  {
+  width: 600px;
+  margin: auto;
+  background-color: #E6E2EB;
+  border: 2px solid #D6D3DB;
+  padding: 20px;
+  border-radius: 4px;
+}
+.profile-photo  {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+.button {
+  background-color: #333;
+  color: white;
+  padding: 20px 30px;
+  margin: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #675A8D;
+}
+

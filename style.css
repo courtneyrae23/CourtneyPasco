@@ -1,0 +1,29 @@
+body {
+  font-family: "Comic Sans MS", Papyrus, sans-serif;
+}
+.myself {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	margin-top: 40px;
+}
+.centered {
+	text-align: center;
+	padding-bottom: 40px;
+	background-image: url("finished/images/seattle.jpg");
+	background-size: cover;
+	color: white;
+}
+.centered a {
+	color: white;
+}
+.description {
+	margin: auto;
+	margin-top: 40px;
+	width: 40%;
+}
+/* 
+ul {
+	Telling CSS that we want the bullets to be adjusted along with rest of inline elements
+	display: inline_block;
+}*/
