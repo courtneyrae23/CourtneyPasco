@@ -6,3 +6,7 @@ jQuery(document).ready(function() {
         e.preventDefault();
     });
 });
+
+$('a.new-link').click(function() {
+    	confirm("Are you sure you want to leave this page?");
+});
