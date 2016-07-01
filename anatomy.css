@@ -9,6 +9,11 @@
 	position: relative;
 }
 
+.slideshow {
+	background-image: url("skull.jpg");
+	border: 5px solid orange;
+}
+
 .scroll-pics li {
 	list-style: none;
 }
