@@ -1,52 +1,154 @@
-img {
-	width:100%;
-	height:auto;
-}
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300|Amatic+SC:400,700);
 
-.workplace {
-	padding-top: 5%;
-	padding-bottom: 5%;
-}
 
-.Education {
-	border-bottom: 1px solid lightgray;
-}
-
-.position {
+.education {
+	width: 100%;
+	margin-top: 50px;
+	float: left;
+	height: 525px;
 	position: relative;
 }
 
-.icon {
-	margin: 10% 10% 0 10%;
-	height: 200px;
-	width: 200px;
-	border-radius: 100%;
-	background-color: black;
-	position: relative;
-}
-
-.icon img {
+.page-title {
 	position: absolute;
-	left: 50%;
-	top: 50%;
-	width:70%;
-	transform: translate(-50%, -50%);
-	height: auto;
+	right: 20%;
+	top: 30%;
+	color: #606060;
+	font-family: "Amatic SC", cursive;
+	font-weight: 700;
+	font-size: 72px;
 }
 
-.workplace:hover .overlay{
-	opacity: 1;
+.work-places {
+	margin-top: 50px;
+	width: 50%;
+	float: left;
+	height: 250px;
+	position: relative;
 }
 
+.background {
+	background-size: cover;
+	background-position: top center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 10%;
+	left: 10%;
+}
 .overlay {
 	transition: all .3s;
 	opacity: 0;
 	position: absolute;
-	left:0;
 	top:0;
-	height: 100%;
-	width: 100%;
-	text-align: center;
-	background-color: rgba(0, 0, 0, .6);
-	color: white;
+	bottom: 0;
+	right: 10%;
+	left: 10%;
+	background-color: rgba(255, 255, 255, .8);
+	color: black;
 }	
+
+.header h1 {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 700px;
+	font-size: 32px;
+}
+
+.header h2 {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 700px;
+	font-size: 26px;
+}
+
+.header-right {
+	position: absolute;
+	left: 5%;
+	top: 3%;
+}
+
+.header-left {
+	position: absolute;
+	right: 5%;
+	top: 3%;
+}
+
+.subtext p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.subtext {
+	position: absolute;
+	left: 5%;
+	top: 40%;
+}
+
+.right {left:10%; right:5%;}
+
+.left {right:10%; left:5%;}
+
+.edu {left:0; right:0; background-image: url("Images/campanile.jpg"); }
+
+.ucsf { background-image: url("Images/CB3.jpg"); }
+
+.rssp {	background-image: url("Images/dorms.jpg"); }
+
+.ebsb { background-image: url("Images/ebsb-main.png"); }
+
+.ix { background-image: url("Images/cape-town.jpg"); }
+/*      end              */
+
+.work-places:hover .overlay{
+	opacity: 1;
+}
+
+.icon {
+	position: absolute;
+	top: 20%;
+	height: 75px;
+	width: 75px;
+	border-radius: 100%;
+}
+
+.icon-right {
+	right: 0;
+	transform: translate(-25%, -50%);
+	background-color: darkblue;
+}
+
+.icon-left {
+	left: 0;
+	transform: translate(25%, -50%);
+	background-color: white;
+}
+
+
+.icon img {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width:80%;
+	height: auto;
+}
+
+.icon-rssp img {
+	width: 100%;
+}
+
+@media(max-width: 768px) {
+	.work-places {
+		width: 100%;
+	}
+
+	.background {
+		left: 10%;
+		right: 10%;
+	}
+
+	.icon {
+
+	}
+}
+

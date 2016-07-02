@@ -28,3 +28,14 @@
 	opacity: 1;
 	transform: translate(0px, -40px);
 }
+
+.machine-row > div:first-child {
+	opacity: 1;
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	padding: -10px;
+}
+
+.machine-row .image:hover .machine-row div:first-child{
+	opacity: 11
+}
